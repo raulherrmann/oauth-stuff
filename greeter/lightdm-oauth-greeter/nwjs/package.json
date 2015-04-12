@@ -1,0 +1,13 @@
+{
+  "name": "lightdm-oauth-greeter",
+  "main": "index.html",
+  "node-remote": "http://localhost:9669",
+  "chromium-args": "--data-path=/dev/null",
+  "window": {
+    "title": "OAuth Greeter",
+    "toolbar": false,
+    "fullscreen": true,
+    "as_desktop": true
+  }
+
+}

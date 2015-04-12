@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=OAuth Greeter
+Comment=OAuth Greeter
+Exec=/opt/lightdm-oauth-greeter/greeter.py
+Type=Application
