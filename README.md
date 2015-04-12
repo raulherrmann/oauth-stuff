@@ -1,6 +1,8 @@
-# oauth_linux
+# oauth-stuff
 
 Some utilities to enable oauth login to a Linux machine.
+
+## Copy nw.js to /greeter/lightdm-oauth-greeter/nwjs/
 
 ## Requirements
 
