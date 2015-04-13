@@ -23,7 +23,13 @@ OAUTH_STORE_PATH = "/etc/oauth/users"
 store = None
 
 
-class Store:
+class RedisStore:
+
+    def __init__(self):
+        raise NotImplementedError
+
+
+class LocalStore:
 
     def __init__(self):
         self.configpath = OAUTH_STORE_PATH
@@ -156,6 +162,6 @@ def check():
 
 
 if __name__ == "__main__":
-    store = Store()
+    store = LocalStore()
     app.debug = True
     app.run(host="localhost", port=9669)
